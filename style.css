@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+/*navbar starts here*/
+.navbar{
+    display: flex;
+    justify-content: center;
+    align align-items: center;
+     background-color:#302d2d ;
+     position:sticky;
+     top:0;
+    
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+     margin: 20px 0px;
+
+}
+.navbar ul li{
+  font-weight: bold;
+  font-family: century;
+  font-size: 1.1rem;
+  
+}
+.navbar ul li a{
+  text-decoration: none;
+  padding: 8px 20px;
+  color: white;
+  transition: all .5s ease;
+  
+}
+.navbar ul li a:hover{
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px white;
+ 
+}
+/*home section*/
+#home {
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: center;
+  align-items: center;
+  height: 840px;
+  color: white;
+  
+  
+}
+#home::before{
+  content: '';
+  top: 0;
+  position: absolute;
+  right: 0;
+  background: url(surajjj.jpg) no-repeat center center/cover;
+  height: 900px;
+  width: 100%;
+  z-index: -2;
+  opacity:0.8;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  align-items: center;
+  position: absolute;
+  top:30%;
+  left:2%;
+  background-color: black;
+}
+.headings{
+  font-family: century;
+  font-size: 2rem;
+  text-align: center;
+  margin: 40px 0px;
+
+}
+.btn{
+  padding: 10px 15px;
+  border: 1px solid white;
+  margin-bottom: 5px;
+  color: white;
+  background-color: transparent;
+  transition: .6s ease;
+}
+.btn:hover{
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  font-weight: bold;
+  
+  box-shadow: 0 0 10px white;
+}
+/*home section ends here*/
+ /*about section starts here */
+ #about{
+   display: flex;
+   flex-direction: column;
+ }
+ .heading{
+   justify-content: center;
+   align-items: center;
+   font-weight:bolder;
+ }
+ #about{
+   display: flex;
+   flex-direction: column;
+   box-sizing: border-box;
+   padding: 50px;
+   margin-bottom: 50px;
+ }
+ .pic{
+   display: flex;
+   
+ }
+ .pic img{
+   height: 500px;
+   width: 450px;
+ }
+ 
+ .intro{
+   padding: 0px 40px;
+   display: flex;
+   flex-direction: column;
+   text-transform: capitalize;
+
+ }
+ .intro h2{
+   font-size: 2rem;
+   margin-bottom: 20px;
+ }
+ .into p{
+   text-transform: uppercase;
+ }
+ /*portfolio*/
+ #portfolio{
+   display: flex;
+   flex-direction: column;
+   background-color: #dae0eb;
+   align-items: center;
+   color: blue;
+   padding-top: 20PX;
+   
+   
+ }
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+.gallery img{
+  height: 240px;
+  width: 300px;
+  margin: 40px;
+}
+.gallery img:hover{
+  border: 5px solid red;
+}
+/*services starts here*/
+#services{
+  display: flex;
+  flex-direction: column;
+  
+}
+.row{
+  display: flex;
+  justify-content: space-around;
+  flex: wrap;
+  box-sizing: border-box;
+  margin-bottom: 40px;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  border: 2px solid black;
+  align-items: center;
+  text-align: justify;
+  border-radius: 10px;
+  padding: 15px;
+  background: linear-gradient(to top,red 50%, white 50%);
+  background-size: 100% 200%;
+  transition: all .8s;
+}
+.box:hover{
+  background-position: left bottom;
+  color: white;
+  box-shadow: 0 0 20px red;
+}
+/*contact section starts here */
+#contact{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  padding:20px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: 30px 0px;
+  align-items: center;
+}
+.input{
+  padding:10px;
+  margin: 15px;
+  border: none;
+  outline: none;
+  width: 70%;
+  
+}
+#msg{
+  padding: 15px;
+  margin: 15px;
+  border: none;
+   outline: none;
+   width: 80%;
+}
+.submit{
+  margin: 40px;
+  padding: 10px;
+  width: 50%;
+  border: none;
+  outline: none;
+}
+.head{
+  font-size: 3rem;
+  margin-top: 30px;
+}
+.submit:hover{
+  color:red;
+  box-shadow: 0 0 10px white;
+  cursor: pointer;
+  background-color: ;
+}
+/*follow me section starts here */
+#follow{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ background-color: blue;
+  padding: 10px;
+  justify-content: center;
+  color: white;
+}
+.do li a{
+  text-decoration: none;
+  color: white;
+  
+  
+  
+}
+.do ul{
+list-style: none;
+}
+#headd{
+  
+  margin: 15px;
+}
+
